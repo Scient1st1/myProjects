@@ -1,0 +1,111 @@
+
+.singlearticle_image {
+    float: left;
+    margin: 0 30px 15px 0;
+    width: 25%;
+}
+
+.no_image .singlearticle_image {
+    display: none;
+}
+
+.singlearticle_image img {
+    max-width: 100%;
+}
+
+/*free content singlearticle button*/
+.free-content-one {
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.free-content-one p a {
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    white-space: normal;
+    font-size: 14px;
+    background-color: #1990c6;
+    color: #fff;
+    display: inline-block;
+    width: auto;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    padding: 15px 18px 10px 18px;
+    font-family: 'BPGNinoMtavruli';
+}
+
+.free-content-one p a:hover {
+    opacity: .6;
+}
+
+
+
+.singlearticle_intro p {
+    color: #788188;
+    font-size: 1.125em;
+    line-height: 1.5;
+    margin: 0 0 19.44444px;
+
+}
+
+.singlearticle_item_ini {
+    /*display: flex*/
+}
+
+.singlearticle_item_ini .singlearticle_title {
+    margin-bottom: 18px;
+    line-height: 1.5;
+    font-size: 1.625em;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+
+.singlearticle_item_ini .singlearticle_title a {
+    color: #3d4246;
+    line-height: 1.5;
+    font-size: 1.625em;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.singlearticle_readmore a {
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    white-space: normal;
+    font-size: 14px;
+    background-color: #1990c6;
+    color: #fff;
+    display: inline-block;
+    width: auto;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    padding: 15px 18px 10px 18px;
+    font-family: 'BPGNinoMtavruli';
+}
+
+.singlearticle_readmore a:hover {
+    opacity: .6;
+}
+
+
+
+
+.singlearticle_all_readmore {
+    position: absolute;
+}
+
+.single-holder .module_title h2{
+    text-align: left;
+}

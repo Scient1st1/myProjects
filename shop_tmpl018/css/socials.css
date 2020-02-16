@@ -1,0 +1,86 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 11, 2019, 12:43:10 PM
+    Author     : Levani
+*/
+/*global changes*/
+
+.site_social {
+    -webkit-flex: 0 0 auto;
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.site_social > div {
+    font-size: 14px;
+    -webkit-flex: 0 0 auto;
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 0 5px;
+}
+.site_social > div a {
+    font-weight: bold;
+    color: #fff;
+}
+
+.site_social > div a:hover {
+    color: #56cfe1;
+    -webkit-transition: background 300ms ease;
+    -moz-transition: background 300ms ease;
+    -o-transition: background 300ms ease;
+    transition: background 300ms ease;
+}
+
+
+
+/*global changes end*/
+
+
+/*footer socrs*/
+.footer_socs {
+    -webkit-flex: 0 0 auto;
+    flex: 0 0 auto;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+
+.footer_socs .site_social > div {
+    font-size: 16px;
+    width: 28px;
+    height: 28px;
+    line-height: 26px;
+    padding: 0;
+    -webkit-transition: background 300ms ease;
+    -moz-transition: background 300ms ease;
+    -o-transition: background 300ms ease;
+    transition: background 300ms ease;
+    margin: 0;
+}
+
+
+.footer_socs .site_social > div a {
+    color: #878787;
+    display: block;
+    width: 100%;
+    text-align: left;
+    transition: all .4s ease;
+}
+
+.footer_socs .site_social > div a:hover {
+    color: #56cfe1;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,43 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Dec 3, 2018, 12:37:11 PM
+    Author     : Berdia
+*/
+
+.page_body_user_cabinet_body .user_c_row {
+    border-bottom: 1px solid #e6e6e6;
+    color: #555;
+    font-size: 16px;
+    padding: 0 0 12px;
+}
+
+.user_c_row_v {
+    color: #888;
+}
+
+.user_cab_btns a {
+/*    color: #555;*/
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+    font-size: 16px;
+    /*border-bottom: 1px solid transparent;*/
+    padding-bottom: 4px;
+}
+
+
+.form-group .col-sm- .btn {
+    background: #282828;
+    color: #fff;
+    transition: .3s ease-in;
+}
+
+.form-group .col-sm- .btn:hover {
+    background: #42c3d6;
+}
+
+
+

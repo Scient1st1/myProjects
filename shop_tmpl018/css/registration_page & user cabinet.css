@@ -1,0 +1,127 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Nov 8, 2018, 5:38:11 PM
+    Author     : Berdia
+*/
+
+a.registration_btn {
+    border-radius: 23px;
+    background-color: #d81416;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'BPGNinoMtavruli';
+    letter-spacing: 0.5px;
+    border: none;
+    width: 200px;
+    padding: 14px 12px 8px;
+    text-align: center;
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+    display: inline-block;
+    line-height: 1;
+
+}
+
+
+a.registration_btn.active {
+    color: #000;
+    background: #fff;
+    position: relative;
+    -webkit-transition:all .3s ease;
+    -moz-transition: all .3s ease;;
+    transition: all .3s ease;;
+}
+
+a.registration_btn.active:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: 3px solid #000;
+    border-radius: 2em;
+    -webkit-transition:border .3s ease;
+    -moz-transition: border .3s ease;;
+    transition: border .3s ease;;
+}
+
+a.registration_btn.active:hover {
+    color: #fff;
+    background: #d81416;
+
+}
+
+a.registration_btn.active:hover:before {
+    border: none;
+}
+
+.registration_rows .panel.panel-default label, .page_body_login .panel.panel-default label {
+    font-family: 'BPGNinoMtavruli';
+    margin-bottom: 5px;
+    color: #888;
+    font-size: 16px;
+}
+
+.form-control {
+    height: 50px;
+    border-radius: 0px;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.registration_rows input#xform_captcha {
+    margin: 10px 10px 0;
+}
+
+
+
+
+
+
+/*verify-email-start*/
+.panel {
+    height: auto;
+}
+
+.panel-body .form-group .btn-primary {
+    border-color: inherit;
+}
+/*verify-email-end*/
+
+
+
+/*user-cabinet-start*/
+
+.page_body_user_cabinet_body .user_c_row {
+    border-bottom: 1px solid #e6e6e6;
+    color: #555;
+    font-size: 16px;
+    padding: 0 0 12px;
+}
+
+.user_c_row_v {
+    color: #888;
+}
+
+.user_cab_btns a {
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+    font-size: 16px;
+    /*border-bottom: 1px solid transparent;*/
+    padding-bottom: 4px;
+}
+
+
+
+/*user-cabinet-end*/

@@ -1,0 +1,228 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Jul 17, 2017, 12:59:54 PM
+    Author     : Anri
+*/
+#supermenu {
+    display: flex;
+    justify-content: center; 
+}
+
+/*.mainmenu ul.menu  {
+    float: none;
+    display: flex;
+    margin-top: 0px;
+    transition: 0.4s;
+
+}*/
+
+.mainmenu ul.menu > li {
+    float: left;
+    margin-left: 8px;
+    padding: 10px 0;
+}
+.mainmenu ul.menu > li > a {
+    color: #483b33;
+    display: block;
+    line-height: 1;
+    margin: 0px 12px;
+    text-decoration: none;
+    font-size: 14px;
+    position: relative;
+    font-family: 'BPGNinoMtavruli';
+}
+
+.navbar {
+    min-height: auto;
+}
+
+.mainmenu ul.menu > li:hover > a {
+    text-decoration: underline;
+    color: #69af07;
+}
+
+.mainmenu ul.menu > li .linkactive {
+    color: #69af07;
+    text-decoration: underline;
+
+}
+
+
+
+/* ============ SUBS =========== */
+
+.wsd_havechildren:hover > ul {
+    display: block;
+}
+
+.wsd_subhavechildren:hover > ul {
+    display: block;
+}
+
+
+/*wsd-sub-2*/
+.wsd_sub2 {
+    padding: 10px 0!important;
+    background-color: #fff;
+    z-index: 1002;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    color: #000;
+    box-shadow: 3px 3px 20px rgba(0,0,0,.15);
+    display: none;
+}
+
+/*.wsd_sub2:before {
+    content: '';
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: -40px;
+    background-color: transparent;
+    display: block;
+}*/
+
+.wsd_sub2 li:hover {
+    background: #69af07;
+}
+
+/*wsd-sub-2-end*/
+
+/*wsd-sub-3*/
+
+.wsd_sub3 {
+    background: #fff;
+    z-index: 1002;
+    position: absolute;
+    top: 0;
+    box-shadow: 3px 3px 20px rgba(0,0,0,.15);
+
+}
+
+
+
+.wsd_sub3 > li {
+    z-index: 1002;
+}
+/*wsd-sub-3-end*/
+
+
+/*both*/
+.wsd_subhavechildren {
+    position: relative;
+}
+
+.wsd_sub2 > li > a,
+.wsd_sub3 > li > a
+{
+    font-size: 13px;
+    width: 100%;
+    text-align: left;
+    padding: 10px 10px 10px 25px;
+    display: inline-block;
+    transition: .3s;
+    font-family: 'BPGWEB001Caps';
+    position: relative;
+
+}
+
+.wsd_sub2 > li:hover > a,
+.wsd_sub3 > li:hover > a
+{
+    color: #fff;
+}
+/*both-end*/
+
+
+/*have-children-hovers-afters*/
+.wsd_havechildren:after {
+    content:"\e114";
+    display: block;
+    font-family: 'Glyphicons Halflings';
+    position: absolute;
+    right: -4px;
+    top: 10px;
+    font-size: 9px;
+    color: #483b33;
+    -webkit-transition: 0.3s ;
+    transition: 0.3s;
+}
+.wsd_havechildren:hover:after {
+    color: #69af07;
+}
+
+
+.wsd_subhavechildren:after {
+    content:"\e080";
+    font-family: 'Glyphicons Halflings';
+    position: absolute;
+    right: 7px;
+    top: 14px;
+    font-size: 9px;
+    color: #000;
+    -webkit-transition: 0.3s ;
+    transition: 0.3s ;
+}
+.wsd_subhavechildren:hover:after {
+    color: #fff;
+}
+
+#wst24143:hover:after {
+    color: #ff084e!important;
+}
+/*have-children-hovers-afters-end*/
+
+
+
+/*chaotioc-settings :D*/
+
+.menu_fixed {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+}
+
+
+.header_ini .menu_background .menu_container {
+    margin-top: 0;
+    transition: 0.4s;
+}
+
+.header_ini .menu_background .mainmenu ul.menu > li > a {
+    line-height: 30px;
+}
+
+.navbar-collapse {
+    box-shadow: none;
+}
+
+.wsd_havechildren > a {
+    position: relative;
+}
+
+.menu_holder {
+    display: block;
+    margin-top: 17px;
+    width: auto;
+    height: auto;
+    transition: 0.4s;
+}
+
+.menu-area {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-toggle .icon-bar {
+    background: #000!important;
+}
+
+.navbar-toggle.collapsed .icon-bar {
+    background: #000;
+}

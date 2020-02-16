@@ -1,0 +1,103 @@
+
+#footer {
+    background: #f6f6f8;
+    padding-top: 80px;
+}
+
+
+
+.footer_logo .image_logo {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+
+#footer .mod_simplemenu li a{
+    color: #878787;
+    transition: all .4s ease;
+}
+
+#footer .mod_simplemenu li a:hover {
+    color: #56cfe1;
+}
+
+
+
+
+
+.free_content_two, .free_content_two p, .free_content_two h1, .free_content_two h2, .free_content_two h3, .free_content_two h4, 
+.free_content_two > div{
+    color: #878787;
+    font-size: 14px;
+}
+
+.developed {
+    float: right;
+}
+
+.developed a {
+    font-family: 'BPGBannerCapsRegular';
+    -webkit-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+
+
+
+.copyright {
+    float:left;
+    display: block;
+    line-height: 1.5;
+}
+
+.map_button {
+    margin-top: 167px;
+    margin-right: 40px;
+    display: inline-block;
+    float: right;
+}
+
+
+
+
+
+
+
+
+.footer_top .mod_forms_footer {
+    padding-right: 40px;
+}
+
+.footer_top .module_title {
+    text-align: left;
+    padding-bottom: 0px;
+}
+
+.footer_top .module_title h2 {
+    text-align: left;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #222;
+    line-height: 1.428;
+    letter-spacing: 0.5px;
+}
+
+
+
+
+.footer_bot {
+    padding: 17px 80px;
+    background: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+

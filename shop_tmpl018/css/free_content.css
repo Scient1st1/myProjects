@@ -1,0 +1,126 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Mar 15, 2018, 5:04:45 PM
+    Author     : Berdia
+*/
+.free_content_one {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.free_content_one h3, .free_content_one h2, .free_content_one h1, .free_content_one h4, .free_content_one h5, .free_content_one h6 {
+    display: inline-block;
+    position: relative;
+    color: #000;
+    line-height: 24px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.free_content_one h3::before, .free_content_one h1::before, .free_content_one h2::before, .free_content_one h4::before,
+.free_content_one h5::before, .free_content_one h6::before {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 2px;
+    background: #000;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: -75px;
+
+}
+
+.free_content_one h3::after, .free_content_one h1::after, .free_content_one h2::after, .free_content_one h4::after, 
+.free_content_one h5::after, .free_content_one h6::after{
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 2px;
+    background: #000;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: -75px;
+
+}
+
+.free_content_one p, .free_content_one div {
+    font-style: italic;
+    font-size: 14px;
+    color: #878787;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+
+/*free-content-3*/
+
+
+
+.free_content_three {
+    text-align: center;
+  
+}
+
+
+
+
+
+.free_content_three h3, .free_content_three h2, .free_content_three h1, .free_content_three h4, 
+.free_content_three h5, .free_content_three h6 {
+    display: inline-block;
+    position: relative;
+    color: #000;
+    line-height: 24px;
+    font-weight: 600;
+    margin: 0;
+    font-style: normal;
+}
+
+
+.free_content_three h3::before, .free_content_three h1::before, .free_content_three h2::before, .free_content_three h4::before,
+.free_content_three h5::before, .free_content_three h6::before  {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 2px;
+    background: #000;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: -75px;
+
+}
+
+.free_content_three h3::after, .free_content_three h1::after, .free_content_three h2::after, .free_content_three h4::after, 
+.free_content_three h5::after, .free_content_three h6::after{
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 2px;
+    background: #000;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: -75px;
+
+}
+
+.free_content_three p, .free_content_three div {
+    font-style: italic;
+    font-size: 14px;
+    color: #878787;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    text-align: center;
+}

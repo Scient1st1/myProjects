@@ -1,0 +1,76 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Nov 7, 2018, 4:43:48 PM
+    Author     : Berdia
+*/
+
+.mod_photo_holder {
+    padding: 0 15px;
+}
+
+.mod_photo_holder .module_title {
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.mod_photo_holder .module_title h2 {
+    display: inline-block;
+    position: relative;
+    color: #000;
+    line-height: 24px;
+    font-weight: 600;
+    margin: 0;
+    font-style: normal;
+    font-size: 24px;    
+}
+
+.mod_photo_holder .module_title h2::before {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 2px;
+    background: #000;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: -75px;
+}
+
+.mod_photo_holder .module_title h2::after {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 2px;
+    background: #000;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: -75px;
+}
+
+.photo_image_out {
+    max-width: 16.6666%;
+
+}
+
+.mod_photo_image img {
+
+    -webkit-transition: 0.3s ease-out;
+    transition: 0.3s ease-out;
+}
+
+.photo_image_out_in {
+    padding: 0;
+
+}
+
+.mod_photo_image_in {
+    background-color: #222;
+}
+

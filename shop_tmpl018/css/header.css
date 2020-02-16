@@ -1,0 +1,166 @@
+
+.header {
+    width: 100%;
+    background: #fff;
+}
+
+.header .container_in{
+    padding: 5px 15px;
+    -webkit-flex: 0 0 auto;
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.container.no_image {
+    margin-bottom: 50px;
+}
+
+
+
+.header_contact .contact_cont .module_block {
+    margin: 0;
+}
+
+
+.header_contact .contact_infos > div {
+    color: #878787;
+    margin-bottom: 0;
+}
+
+.search_cart_login_inner {
+    -webkit-flex: 0 0 auto;
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.search_cart_login_inner > div {
+    margin: 0 5px;
+    margin-top: 5px;
+}
+
+.search_cart_login_inner .lang-cont {
+    position: relative;
+    -webkit-flex: 0 0 100px;
+    flex: 0 0 100px;
+    display: flex;
+    /*justify-content: center;*/
+    max-width: 100px;
+}
+
+/*login-start*/
+.mod_login {
+    position: relative;
+    -webkit-flex: 0 0 auto;
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.mod_login .user_icon {
+    width: 24px;
+    height: 24px;
+    background:  url('==TEMPLATE==/images/user_icon.png') no-repeat center;
+    position: relative;
+    cursor: pointer;
+    background-size: cover;
+}
+
+
+.mod_login .user_icon:hover:after {
+    color: #fff;
+}
+
+.logni_btns {
+    display: none;
+    background: #fff;
+    padding: 15px;
+    width: auto;
+    font-size: 0px;
+    align-items: center;
+    color: #3d4246;
+    text-align: center;
+    overflow: hidden;
+    position: absolute;
+    z-index: 999997;
+    right: -75px;
+    top: 40px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    min-width: 180px;
+}
+
+.logni_btns a {
+    font-size: 16px;
+    color: #000;
+    display: block;
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+    padding: 7px 15px;
+    font-family: 'BPGNinoMtavruli';
+    text-transform: uppercase;
+    /*margin-bottom: 10px;*/
+}
+
+.logni_btns a:hover {
+    color: #42c3d6;
+}
+
+.logni_btns a span {
+    display: inline;
+    margin-right: 8px !important;
+}
+
+
+
+/* card */
+
+.card-holder {
+    -webkit-flex: 0 0 auto;
+    flex: 0 0 auto;
+    position: relative;
+
+}
+
+
+.free-content-top .first p {
+    margin: auto;
+}
+
+.image_logo {
+    text-align: center;
+}
+.image_logo a img {
+    max-width: 100%;
+}
+
+.clicked {
+    height: 30px!important;
+}
+
+
+
+._51m div .inlineBlock {
+    -webkit-flex: 0 0 auto;
+    flex: 0 0 auto;
+    display: flex !important;
+
+}
+
+
+
+.card-and-login {
+    -webkit-flex: 0 0 auto;
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
+
+

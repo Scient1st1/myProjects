@@ -1,0 +1,46 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Nov 6, 2018, 4:48:06 PM
+    Author     : Berdia
+*/
+
+.mod_icon_holder .image_img {
+    padding-right: 20px;
+    margin-bottom: 10px;
+    
+}
+
+.mod_icon_holder .image_link {
+    margin-bottom: 20px;
+}
+
+.mod_icon_holder .image_link a {
+    -webkit-flex: 0 0 auto;
+    flex: 0 0 auto;
+    display: flex;
+    color: #878787;
+
+}
+
+.mod_icon_holder .image_link a::hover {
+   color: #56cfe1;
+}
+
+.img_desc_in {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.image_link_name {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom:5px;
+    color: #222;
+    line-height: 1.428;
+}
