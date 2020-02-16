@@ -1,0 +1,144 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Nov 8, 2018, 5:38:11 PM
+    Author     : Berdia
+*/
+
+a.registration_btn {
+    border-radius: 5px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'BPGNinoMtavruli';
+    letter-spacing: 0.5px;
+    width: 200px;
+    height: 40px;
+    padding: 13px 12px 8px;
+    text-align: center;
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+    display: inline-block;
+    line-height: 1;
+    color: #fff;
+    background: rgb(37, 37, 37);
+
+}
+ 
+a.registration_btn:hover {
+    background-color: rgb(27, 190, 180);
+    color: #fff;
+    border: 1px solid rgb(27, 190, 180);
+}
+
+a.registration_btn.active {
+    border-radius: 5px;
+    font-family: 'BPGNinoMtavruli';
+    font-size: 16px;
+    line-height: 1;
+    padding: 13px 22px 9px;
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+    background-color: rgb(27, 190, 180);
+    border: 1px solid rgb(27, 190, 180);
+    color: #fff;
+    font-weight: normal;
+}
+
+.registration_rows .panel.panel-default label, .page_body_login .panel.panel-default label {
+    font-family: 'BPGNinoMtavruli';
+    margin-bottom: 5px;
+    color: rgb(61, 65, 73);
+    font-size: 16px;
+}
+
+.page_body_login {
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.page_body_login .page_title , .page_body_registration .page_title , .page_body_recovery .page_title  {
+    text-align: center;
+}
+
+.form-control {
+    border-radius: 0px !important;
+    background-color: #fff;
+}
+
+.form-group {
+    margin-bottom: 35px;
+}
+
+.registration_rows input#xform_captcha {
+    margin: 10px 10px 0;
+}
+
+.registration_submit, .login_submit {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid rgb(111, 111, 111);
+    font-family: 'BPGNinoMtavruli';
+    font-size: 16px;
+    line-height: 1;
+    padding: 12px 22px 8px;
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+    border-radius: 5px;    
+}
+
+.page_body_registration .registration_submit:hover, .login_submit:hover {
+    background-color: rgb(27, 190, 180);
+    border-color: rgb(27, 190, 180);
+    color: #fff;
+}
+.login {
+    float: right;
+    text-align: right;
+}
+
+/* Login Page */
+
+.login_btns a {
+    color: rgb(27, 190, 180);
+    font-size: 16px;
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+    padding-bottom: 4px;
+    font-family: 'BPGNinoMtavruli';
+}
+
+.login_btns a:hover {
+    color: #000;
+}
+
+.success ul li {
+    color: #2b542c;
+}
+
+.recovery_row {
+    padding: 20px;
+}
+
+button.btn.recovery_submit {
+    background: rgb(80, 92, 253);
+    color: #fff;
+    padding: 12px 22px 8px;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+button.btn.recovery_submit:hover {
+    background-color: rgb(80, 92, 253);
+    color: #fff;
+}
+
+.recovery_row .control-label{
+    font-family: 'BPGNinoMtavruli';
+}
+
+.recovery_submit {
+    font-family: 'BPGNinoMtavruli';
+}

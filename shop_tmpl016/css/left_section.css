@@ -1,0 +1,35 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 4, 2019, 10:37:29 AM
+    Author     : Beka
+*/
+.menu_button {
+    height: 10%;
+    position: relative;
+}
+.separator {
+    background: rgb(224, 224, 224);
+    width: 60px;
+    height: 2px;
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+    top: -3px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) rotate(-90deg);
+    -ms-transform: translateX(-50%) rotate(-90deg);
+    transform: translateX(-50%) rotate(-90deg);
+}
+
+.separator::before {
+    content: '';
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 50%;
+    height: inherit;
+}

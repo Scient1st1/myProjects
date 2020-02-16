@@ -1,0 +1,60 @@
+
+.form .custom_fields_email {
+    text-align: center;
+}
+
+.form .item_form_captcha {
+    text-align: center;
+}
+
+.form .item_label_captcha {
+    text-align: center;
+    float: none;
+    width: 100%;
+}
+
+.form .mod_form_chk_cptcha {
+    position: relative;
+    left: 54%;
+    top: -50px;
+}
+
+.form .item_label_captcha_in {
+    padding-right: 60px;
+}
+
+.form .custom_fields_email {
+    border: none;
+}
+
+.form .mod_form_infos .form_values::after {                                               
+    content: none;
+}
+
+.form .placeholder:focus {
+    border: 1px solid #000;
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.forms_View .placeholder, .forms_View select, .forms_View .custom_fields_date input  {
+    width: 95% !important;
+}
+
+.forms_View .custom_fields_input,
+.forms_View .custom_fields_email,
+.forms_View .custom_fields_list,
+.forms_View .custom_fields_date,
+.forms_View .custom_fields_phone {
+    width: 33% !important;
+    display: inline-block;
+}
+.forms_View select, .forms_View .custom_fields_date input {
+    height: 40px;
+    margin-bottom: 15px;
+    border-radius: 0 !important;
+}
+.forms_View .custom_fields_date input {
+    margin-left: 10px;
+}

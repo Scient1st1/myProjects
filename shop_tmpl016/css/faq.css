@@ -1,0 +1,33 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 17, 2019, 1:58:10 PM
+    Author     : BBeka
+*/
+
+.faqs_cattitle {
+    font-family: 'BPGNinoMtavruli';
+    color: rgb(27, 190, 180);
+    margin-bottom: 20px;
+}
+.faqs_body h1 {
+    font-family: 'BPGNinoMtavruli';
+    color: rgb(27, 190, 180);
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.question_item {
+    font-family: 'BPGNinoMtavruli';
+    margin-left: 0;
+}
+.answer {
+    font-family: BPGArialRegular;
+    font-size: 15px;
+    padding-top: 20px;
+}
+.answer p {
+    margin-bottom: 15px;
+}

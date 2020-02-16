@@ -1,0 +1,58 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Dec 3, 2018, 12:37:11 PM
+    Author     : Berdia
+*/
+
+.page_body_user_cabinet_body {
+    padding-top: 40px;
+    padding-bottom: 140px;
+}
+
+.page_body_user_cabinet_body .user_c_row {
+    border-bottom: 1px solid #e6e6e6;
+    color: #555;
+    font-size: 16px;
+    padding: 0 0 12px;
+}
+
+.verify_user {
+    z-index: 9;
+}
+
+.verify_user a {
+    color: rgb(80, 92, 253);
+}
+
+.verify_user a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+.user_c_row_v {
+    color: #4a453e;
+    font-family: 'BPGNinoMtavruli';
+    font-size: 16px;
+}
+
+.user_cab_btns a {
+    color: #000;
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+    font-size: 16px;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 4px;
+    font-family: 'BPGNinoMtavruli';
+}
+
+.user_cab_btns a:hover {
+    color: rgb(27, 190, 180);
+}
+
+select, textarea, label, button {
+    font-family: 'BPGNinoMtavruli';
+}

@@ -1,0 +1,62 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 4, 2019, 10:42:50 AM
+    Author     : BBeka
+*/
+.filter_render_list span.list-items img {
+    width: 20px;
+    border-radius: 50%;
+}
+
+.filter_render_list span.list-items.selected img {
+    width: 25px;
+    border-color: transparent;
+}
+
+.filter_render_list {
+    margin: 30px 0 20px;
+    font-family: 'BPGNinoMtavruli';
+    color: rgb(0, 0, 0);
+}
+
+.filter_render_list .list-items {
+   margin-left: 10px; 
+}
+
+.image_new {
+    position: absolute;
+    top: 30%;
+    left: 50px;
+    color: #fff;
+    background: rgb(80, 92, 253);
+    z-index: 3;
+    padding: 12px 15px 8px 15px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    font-family: 'BPGNinoMtavruli';
+}
+
+.image_new:hover {
+    cursor: default;
+}
+
+.image_read_more {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'BPGNinoMtavruli';
+    position: absolute;
+    top: 60%;
+    left: 50px;
+    border-bottom: 1px solid rgba(0,0,0,0);
+    z-index: 1
+}
+
+
+.image_read_more:hover {
+    border-bottom: 1px solid #fff;
+}
+

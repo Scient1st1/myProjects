@@ -1,0 +1,571 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Nov 6, 2018, 6:49:20 PM
+    Author     : Berdia
+*/
+
+.page_body_products  {
+    margin-bottom: 70px;
+}
+.page_body_products .owl-nav  > div {
+    background: none;
+    opacity: 0.5;
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+}
+
+.page_body_products .owl-nav  > div:hover {
+    opacity: 1;
+}
+
+.page_body_products .owl-next:before {
+    content: '\e807';
+    font-family: fontello;
+    display: block;
+    width: 100%;
+    height: auto;
+    color: #888;
+    margin-left: 3px;
+    font-size: 40px;
+    line-height: 1;
+    text-align: center;
+}
+
+.page_body_products .owl-prev:before {
+    content: '\e809';
+    font-family: fontello;
+    display: block;
+    width: 100%;
+    height: auto;
+    color: #888;
+    font-size: 40px;
+    line-height: 1;
+    text-align: center;
+}
+
+.page_body_products .owl-nav {
+    width: 112%;
+    margin-left: -6%;
+    position: absolute;
+    top: 35%;
+}
+
+.page_body_products .new {
+    top: 10px;
+    left: 10px;
+    color: #fff;
+    border-radius: 18px;
+    font-size: 14px;
+    background-color: #e65540;
+    padding: 3px 9px 5px;
+}
+
+.page_body_products .ItemImage {
+    margin-bottom: 15px;
+}
+
+.catalog_item_bot, .catalog_item_desc, .catalog_item_title, .ItemImage {
+    text-align: left;
+}
+
+.page_body_products .catalog_item_title a {
+    font-size: 17px;
+    color: #555555;
+    line-height: 1.5;
+    font-family: 'BPGNinoMtavruli';
+    letter-spacing: 1px;
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+
+}
+
+.page_body_products .catalog_item_title a:hover {
+    color: #e65540;
+}
+
+.page_body_products .catalog_item_desc {
+    margin-bottom: 15px;
+}
+
+.page_body_products .catalog_item_priceold {
+    display: inline-block;
+    float: left;
+    margin-right: 7px;
+    font-size: 16px;
+    color: #555555;
+}
+
+.page_body_products .catalog_item_price {
+    font-size: 16px;
+    color: #e65540;
+}
+
+.page_body_products .ItemImage {
+    position: relative;
+    overflow: hidden;
+}
+
+.page_body_products .ItemImage img {
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+
+.page_body_products .item_basket {
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+    border-radius: 25px;
+    background-color: #000;
+}
+
+.page_body_products .item_basket:hover {
+    background-color: #e65540;
+}
+
+.page_body_products .item_basket a {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    color: #fff;
+    text-align: center;
+    padding: 12px 26px 9px;
+    font-family: 'BPGNinoMtavruli';
+    display: block;
+}
+
+.page_body_products .ItemImage:hover .item_basket {
+    bottom: 25px;
+}
+
+.page_body_products .ItemImage:hover img {
+    filter: brightness(70%);
+}
+
+.page_body_products .page_title {
+    font-size: 30px;
+    color: #222222;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+
+/* classifier page */
+
+.classifier_page_ordering {
+    position: absolute;
+    top: -85px;
+    right: 0;
+}
+
+#classifier_page .classifier_page_ordering select {
+    float: left;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 0px;
+    padding: 0px 40px 0px 15px;
+    background:  url('==TEMPLATE==/images/select_icon.png') no-repeat;
+    background-size: 12px;
+    background-position-y: 50%;
+    height: 50px;
+    margin-right: 10px;
+    box-shadow: none;
+    border: none;
+    color:  #404044;
+    font-weight: bold;
+    background-position-x: 93%;
+    text-align: center;
+    position: relative; 
+}
+.classifier_item_saleprice {
+    top: 10px;
+    left: 10px;
+    background-color: #e65540;
+    color: #fff;
+    border-radius: 15px;
+    padding: 5px 12px;
+    line-height: 1;
+    font-size: 13px;
+}
+
+.classifier_item_img {
+    margin-bottom: 10px;
+    background-color: #f5f5f5;
+    width: 100%;
+    float: left;
+    -webkit-box-shadow: 0 8px 6px -7px rgb(153, 153, 153);
+    -moz-box-shadow: 0 8px 6px -7px #999;
+    box-shadow: 0 8px 6px -7px rgb(153, 153, 153);
+}
+
+.classifier_item_img img {
+    margin-bottom: 0;
+}
+
+.classifier_item_title {
+    display: block;
+    margin-bottom: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.classifier_item_title a {
+    font-size: 14px;
+    color: rgb(64, 64, 68);
+    font-family: 'BPGNinoMtavruli';
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+    font-weight: 600;
+    display: block;
+    padding: 5px 0px 10px 0px;
+    text-align: center;
+}
+.classifier_item_desc {
+    color: rgb(64, 64, 68);
+    padding: 0px;
+}
+
+.classifier_page_items_in {
+    margin-bottom: 10px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    overflow: hidden;
+}
+.classifier_item_price s {
+    color: #8b8b8b;
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+}
+
+.classifier_img {
+    margin-bottom: 0px !important;
+}
+
+
+
+/* product page in */
+.shop_product_big_img {
+    width: 50%;
+}
+
+.shop_product_big_img > img {
+    width: 100%;
+}
+
+.shop_product_lil_img {
+    float: none;
+    display: block;
+    opacity: 0.7;
+    height: auto;
+    cursor: pointer;
+}
+
+.shop_product_lil_img img {
+    border: 3px solid transparent;
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+    max-width: 100px;
+    height: auto !important;
+}
+
+.shop_product_lil_img:hover {
+    opacity: 1;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+
+
+.shop_product_lil_imgs_out .glyphicon {
+    line-height: 26px;
+}
+
+.shop_prevcat, .shop_nextcat {
+    border-radius: 0%;
+    font-size: 10px;
+    width: 30px;
+    height: 30px;
+    background: rgba(0,0,0,0.3);
+    color: #fff;
+}
+
+
+.shop_item_title {
+    font-size: 20px;
+    color: rgb(64, 64, 68);
+    line-height: 1.5;
+    font-family: 'BPGNinoMtavruli';
+    letter-spacing: 0.5px;
+    margin-bottom: 0px;
+    font-weight: 900;
+    display: inline-block;
+    width: 48%;
+}
+
+.shop_product_back a {
+    font-size: 15px;
+    color: #000;
+    font-family: 'BPGNinoMtavruli';
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+
+}
+
+.shop_product_back span {
+    font-size: 13px;
+    margin-right: 5px;
+    vertical-align: top;
+    line-height: 1.2;
+}
+.shop_item_prices {
+    font-size: 22px;
+    color: #555;
+    line-height: 1.2;
+    font-family: 'BPGNinoMtavruli';
+    width: 48%;
+    margin-bottom: 5px;
+}
+
+.shop_item_sku {
+    font-size: 16px;
+    color: #555;
+    padding-top: 10px;
+    font-family: 'BPGNinoMtavruli';
+    margin-bottom: 10px;
+}
+
+.shop_item_saleprice , .shop_item_price {
+    float: none;
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 26px !important;
+    line-height: 36px !important;
+    font-weight: bold;
+}
+
+.shop_item_saleprice {
+    color: #bbbbbb;
+}
+
+.shop_item_price s {
+    font-size: 20px;
+}
+
+.shop_item_desc {
+    font-size: 15px;
+    color: #6f6f6f;
+    line-height: 1.8;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 48%;
+}
+
+#addtiformid {
+    width: 48%;
+    display: inline-block;
+    float: right;
+}
+
+.shop_item_addtocard {
+    width: 100%;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.shop_item_addtocard button {
+    border-radius: 0;
+    background-color: #8ebd4a;
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+    font-family: 'BPGNinoMtavruli';
+    padding: 14px 24px 10px;
+}
+
+.shop_item_addtocard button:hover {
+    background-color: #555555;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.shop_item_btns:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.shop_item_btns {
+    margin-bottom: 50px;
+}
+
+.shop_wish_list button:hover svg path {
+    fill: #e65540;
+    stroke: #e65540;
+}
+
+.shop_wish_list {
+    line-height: 1;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+
+/* Classifier Filter */
+
+.classifiers > div a {
+    font-size: 15px;
+    color: #888888;
+    line-height: 1.8;
+    margin-bottom: 4px;
+    display: block;
+}
+
+.classifiers > div.active a {
+    color: #333;
+} 
+
+.mod_filter_prices_title {
+    font-size: 16px;
+    color: #000;
+    line-height: 1.5;
+    font-family: 'BPGNinoMtavruli';
+    padding-top: 6px;
+}
+
+.mod_card .module_block {
+    margin-bottom: 0;
+}
+
+.mod_filter form > .row {
+    display: flex;
+    align-items: center;
+}
+
+.delimeter_filter {
+    margin: 7px 2px;
+}
+.mod_filter_prices input {
+    width: 45%;
+    padding: 5px 0px 5px 7px;
+    font-size: 16px;
+    box-shadow: none;
+}
+
+.noUi-target {
+    border: none;
+}
+
+.noUi-horizontal {
+    height: 5px;
+    background-color: #e1e1e1;
+}
+.noUi-connect {
+    box-shadow: none;
+    background:  rgb(27, 190, 180);
+}
+
+.noUi-horizontal .noUi-handle {
+    width: 15px;
+    height: 15px;
+    left: -14px;
+    top: -5px;
+    border-radius: 50%;
+    border: none;
+    background: rgb(255, 255, 255);
+    box-shadow: none;
+    cursor: ew-resize;
+    border: 5px solid rgb(50, 50, 50);
+}
+
+.noUi-handle:before, .noUi-handle:after {
+    display: none;
+}
+
+.mod_filter_btn {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.mod_filter_btn .btn {
+    border: 1px solid rgb(27, 190, 180);
+    padding: 10px 16px 5px;
+    color: rgb(27, 190, 180);
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.mod_filter_btn .btn:hover {
+    border: 1px solid rgb(27, 190, 180);
+    color: #fff;
+    background: rgb(27, 190, 180);
+}
+
+.shop_wish_list .glyphicon {
+    font-size: 24px;
+    margin-top: 14px;
+}
+
+.shop_item_btns #submidss {
+    color: #fff;
+    background: rgb(27, 190, 180);
+    border: 1px solid rgba(80, 92, 253, 0);
+}
+
+.shop_item_btns #submidss:hover {
+    color: rgb(27, 190, 180);
+    background: #fff;
+    border: 1px solid rgb(27, 190, 180);
+}
+
+.shop_item_amount span {
+    font-family: 'BPGNinoMtavruli';
+}
+
+#cartitemlist .container {
+    padding: 10px 15px;
+}
+#cartitemlist li {
+    float: left;
+}
+
+#cartitemlist .inserted li {
+    margin: 5px 0;
+}
+
+.inserted ul {
+    font-family: 'BPGNinoMtavruli';
+    letter-spacing: 0.5px;
+}
+
+.cart-btns {
+    font-family: 'BPGNinoMtavruli';
+}
+
+.cart-btns a:hover {
+    color: #000 !important;
+}
+
+#cartitemlist .count {
+    margin: 0 3px 0 5px;
+}
+a.addnewadress_btn {
+    color: #000; 
+    font-family: BPGNinoMtavruli;
+    border: 1px solid rgba(0,0,0,0);
+}
+
+a.addnewadress_btn:hover {
+    border: 1px solid;
+    transition: 1s;
+    -webkit-transition: 1s;
+}
+
+

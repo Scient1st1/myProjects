@@ -1,0 +1,297 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 9, 2019, 6:12:25 AM
+    Author     : BBeka
+*/
+.filter {
+    display: none;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 450px;
+    background-image: url("==TEMPLATE==/images/bg.png");;
+    z-index: 9999;
+    background-color: #fff;
+    background-repeat: repeat;
+    background-position: center top;
+    background-size: auto;
+    height: 100%;
+    padding: 30px 25px 20px;
+    overflow: auto;
+}
+.filter_before {
+    content: "";
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 450px;
+    height: 100%;
+    background: rgba(37, 37, 37,0.7);
+    z-index: 9999;
+    display: none;
+}
+.filter_before:hover {
+    cursor: url("==TEMPLATE==/images/cursor_close.png"), auto;
+}
+.filter_button {
+    width: 100%;
+    height: 30px;
+    position: relative;
+    border: none;
+    background: #fff;
+}
+.filter_button::after {
+    position: absolute;
+    content:"\e003";
+    font-size: 20px;
+    font-family: 'Glyphicons Halflings';
+    color: rgb(37, 37, 37);
+    top: 0;
+    right: 0;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.filter_button:hover::after {
+    color: rgb(27, 190, 180);
+}
+.filter .filter_button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+}
+.filter .filter_button::after {
+    content:"\e014";
+}
+.filter .filter_button:hover::after {
+    color: rgb(220, 53, 69);
+}
+.filet_wrapper, .card_wrapper {
+    padding-top: 9px;
+    padding-bottom: 7px;
+}
+#card_icon_total #card_total {
+    color: rgb(37, 37, 37);
+    padding: 0px;
+    font-family: 'BPGNinoMtavruli';
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+}
+#card_icon_total .glyphicon-shopping-cart::before {
+    color: rgb(37, 37, 37);
+    font-size: 20px;
+    margin-top: 5px; 
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+div#card_icon_total {
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+div#card_icon_total > a {
+    position: relative;
+}
+.filet_wrapper {
+    border-right: 1px solid rgb(228, 228, 228);
+}
+.mod_lastproducts:hover .owl-nav {
+    opacity: 1;
+}
+.owl-nav {
+    opacity: 0;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.classifier_item_title a:hover, .articleMod_title a:hover {
+    color: rgb(27, 190, 180);
+}
+.classifier_item_price {
+    display: block;
+    font-size: 14px;
+    color: #1d1d1d;
+    font-family: 'BPGNinoMtavruli';
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+    text-align: center;
+}
+.saleicon {
+    position: absolute;
+    background: rgb(27, 190, 180);
+    top: 12px;
+    color: #fff;
+    text-align: center;
+    line-height: 32px;
+    z-index: 1;
+    font-size: 11px;
+    right: 12px;
+    height: 30px;
+    padding: 0 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    width: 70px;
+}
+.classifier_imgh {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1;
+    -webkit-transition: opacity 1.5s cubic-bezier(0.190,1.000,0.220,1.000);
+    -webkit-transition-delay: 0ms;
+    -moz-transition: opacity 1.5s cubic-bezier(0.190,1.000,0.220,1.000) 0ms;
+    -o-transition: opacity 1.5s cubic-bezier(0.190,1.000,0.220,1.000) 0ms;
+    transition: opacity 1.5s cubic-bezier(0.190,1.000,0.220,1.000) 0ms;
+}
+.classifier_item_img.two_image:hover .classifier_img {
+    display: block !important;
+}
+.classifier_item_img.two_image:hover .classifier_imgh {
+    -webkit-transform: translate3d(0,-100%,0);
+    -moz-transform: translate3d(0,-100%,0);
+    -ms-transform: translate3d(0,-100%,0);
+    -o-transform: translate3d(0,-100%,0);
+    transform: translate3d(0,-100%,0);
+    -webkit-transition: -webkit-transform 1s cubic-bezier(0.190,1.000,0.220,1.000);
+    -webkit-transition-delay: 0s;
+    -moz-transition: -moz-transform 1s cubic-bezier(0.190,1.000,0.220,1.000) 0s;
+    -o-transition: -o-transform 1s cubic-bezier(0.190,1.000,0.220,1.000) 0s;
+    transition: transform 1s cubic-bezier(0.190,1.000,0.220,1.000) 0s;
+}
+.classifier_item_img.two_image {
+    position: relative;
+    z-index: 1;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-transition: all 1s cubic-bezier(0.190,1.000,0.220,1.000);
+    -webkit-transition-delay: 0s;
+    -moz-transition: all 1s cubic-bezier(0.190,1.000,0.220,1.000) 0s;
+    -o-transition: all 1s cubic-bezier(0.190,1.000,0.220,1.000) 0s;
+    transition: all 1s cubic-bezier(0.190,1.000,0.220,1.000) 0s;
+}
+#section4 .module_title h2 {
+    font-size: 12px;   
+}
+#section4 .classifier_item_img {
+    width: 36%;
+    float: left;
+    margin-right: 10px;
+    background: #fff;
+}
+#section4 .classifier_item_title, #section4 .classifier_item_price {
+    width: 60%;
+    float: left;
+}
+#section4 .classifier_item_title a, #section4 .classifier_item_price {
+    font-size: 13px;
+    font-weight: normal;
+    padding-bottom: 0;
+    text-align: left;
+}
+#section4 .saleicon {
+    right: 0px;
+    top: 0px;
+    line-height: 20px;
+    font-size: 10px;
+    height: 20px;
+    width: 35px;
+    padding: 0;
+}
+.classifier_item_img  {
+    position: relative;
+}
+
+
+.treeview-menu li a:hover {
+    color: rgb(27, 190, 180);
+    border: 1px solid rgb(27, 190, 180);
+}
+
+.filter_render_dropdown select {
+    width: 100%;
+    padding: 7px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.mod_filter_ui {
+    margin-bottom: 30px;
+}
+
+.mod_filter label {
+    width: 100%; 
+    margin: 5px 0;
+    color: rgb(64, 64, 68);
+}
+
+.filter_render_radio , .filter_render_checkbox {
+    color: #000;
+    margin: 20px 0;
+    font-family: 'BPGNinoMtavruli';
+}
+
+.mod_filter input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    color: #000;
+    border-radius: 0 !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    background: none !important;
+}
+
+.mod_filter input[type="text"]:focus {
+    border-bottom: 1px solid rgb(27, 190, 180);
+}
+
+.filter_render_checkbox {
+    color: #000;
+}
+
+.danger  li {
+    color: #843534 !important;
+}
+
+.back_button {
+    color: #000;
+    padding-left: 20px;
+    font-family: 'BPGNinoMtavruli';
+}
+
+.back_button:hover {
+    color: rgb(27, 190, 180);
+}
+
+.user_c_row_n {
+    font-weight: normal;
+    color: #000;
+}
+
+a.view-cart {
+    color: #000;
+    margin-right: 10px;
+}
+
+#category_page {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+

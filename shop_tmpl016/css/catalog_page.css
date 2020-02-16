@@ -1,0 +1,58 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Nov 8, 2018, 3:26:35 PM
+    Author     : Berdia
+*/
+
+.catalog_sorting {
+    text-align: left;
+    margin-bottom: 35px;
+}
+
+#submitform label {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    font-family: 'BPGNinoMtavruli';
+    font-weight: normal;
+    margin-bottom: 0px;
+    margin-right: 10px;
+}
+
+#submitform select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 0px;
+    padding: 0px 40px 0px 15px;
+    background:  url('==TEMPLATE==/images/select_icon.png') no-repeat;
+    background-size: 12px;
+    background-position-y: 50%;
+    height: 50px;
+    margin-right: 10px;
+}
+
+#submitform select#number {
+    background-position-x: 84%;
+}
+
+#submitform select#ordering {
+    background-position-x: 95%;
+}
+
+.catalog_sort_submit button, .catalog_sort_reset button {
+    height: 50px;
+    border-radius: 0px;
+    padding: 5px 15px;
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+}
+
+.catalog_sort_submit button:hover, .catalog_sort_reset button:hover {
+    background-color: #e65540;
+    color: #fff;
+    border-color: #e65540;
+}

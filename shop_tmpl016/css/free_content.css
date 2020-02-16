@@ -1,0 +1,107 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Mar 15, 2018, 5:04:45 PM
+    Author     : BBeka
+*/
+.position1 p {
+    cursor: pointer;
+}
+.position1 , .position2 {
+    font-family: 'BPGNinoMtavruli';
+}
+.position2_wrapper {
+    display: none;
+    border-bottom: 1px solid rgb(51, 51, 51);
+    font-size: 24px;
+    line-height: 42px;
+    color: #fff;
+}
+.position2_wrapper a {
+    color: rgb(27, 190, 180);
+    border-bottom: 1px dashed rgb(27, 190, 180);
+    text-decoration: none;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.position2_wrapper a:hover, .position1 p span:hover {
+    color: rgb(27, 190, 180) !important;
+    border-bottom: 1px dashed rgba(27, 190, 180, 0);
+}
+.position2_wrapper p {
+    margin-top: 25px; 
+    max-width: 1000px;
+}
+.position1 p span {
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    border: none !important;
+}
+.position2_wrapper button {
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    background: transparent;
+    border: 1px solid rgb(68, 68, 68);
+    width: 38px;
+    height: 38px;
+    text-align: center;
+}
+.position2_wrapper button::after {
+    font-family: 'Glyphicons Halflings';
+    color: #fff;
+    font-size: 13px;
+    content:"\e014";
+    position: absolute;
+    top: -2px;
+    right: 11px;
+}
+.position2_wrapper button:hover::after {
+    color: rgb(27, 190, 180);
+}
+.position3, .position3 a, .position5, .position5 a {
+    color: rgb(34, 34, 34);
+    font-size: 19px;
+    line-height: 30px;
+}
+.position3 {
+    padding: 60px 0;
+    position: relative;
+}
+.position5  {
+    padding: 110px 0;
+}
+.position3 p, .position3 .module_block, .position5 p, .position5 .module_block {
+    margin: 0;
+}
+.position4 {
+    overflow: hidden;
+    -webkit-box-shadow: 0 8px 6px -7px rgb(153, 153, 153);
+    -moz-box-shadow: 0 8px 6px -7px #999;
+    box-shadow: 0 8px 6px -7px rgb(153, 153, 153);
+}
+.position4 img {
+    width: 100%;
+    height: auto;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+.position4 img:hover {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.position4 .module_block, .position4 p {
+    margin-bottom: 0;
+}

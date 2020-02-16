@@ -1,0 +1,108 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 18, 2019, 12:01:00 AM
+    Author     : BBeka
+*/
+
+footer {
+    width: 100%;
+    overflow: hidden;
+    background: rgb(37, 37, 37);
+}
+.footer_bot {
+    background: #000;
+}
+.nav-tabs > li {
+    width: 100%;
+    text-align: center;
+}
+#clasiffier_mod_id_3 {
+    margin-top: 20px;
+}
+.position2 , .position3, .position5 {
+    font-family: 'BPGNinoMtavruli';
+}
+.position2 a:hover {
+    color: #fff;
+}
+.copyright_and_developed  {
+    text-transform: uppercase;
+    font-family: 'BPGNinoMtavruli';
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+    position: relative;
+    margin-top: 25px;
+}
+.copyright_and_developed span {
+    margin-right: 10px;
+}
+.copyright_and_developed a:hover  {
+    color: rgb(27, 190, 180);
+}
+.footer_menus .module_block {
+    width: 50%;
+    float: left;
+    padding: 0 15px;
+}
+.footer_top {
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+footer .module_title h2 {
+    font-size: 16px;
+}
+footer .module_title {
+    margin-bottom: 0;   
+}
+footer .socials {
+    text-align: center;
+    overflow: hidden;
+}
+footer .site_social > div a {
+    font-size: 20px !important;
+}
+footer .userparams_title, .form_values {
+    width: 100%;
+}
+footer .custom_fields_text {
+    border: none;
+}
+footer .site_social {
+    padding-bottom: 9px;
+    border-bottom: 1px solid rgb(51, 51, 51);
+}
+footer .mod_form_desc {
+    text-align: left;
+    padding-top: 15px;
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+    font-family: 'BPGNinoMtavruli';
+}
+footer .mod_form {
+    text-align: right;
+}
+footer .placeholder, .placeholder {
+    width: 100% !important;
+    height: 40px !important;
+    border-radius: 0 !important;
+    border: none;
+    color: rgb(153, 153, 153);
+    padding-left: 5px; 
+    font-family: 'BPGNinoMtavruli';
+    font-size: 14px !important;
+}
+.userparams_title {
+    color: rgb(255, 255, 255);
+    font-family: 'BPGNinoMtavruli';
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+
+.Form_infos form > div > span.userparams_title {
+    color: rgb(101, 101, 101);
+}

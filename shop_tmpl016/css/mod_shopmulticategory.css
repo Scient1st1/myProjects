@@ -1,0 +1,47 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 13, 2019, 12:30:00 PM
+    Author     : Beka
+*/
+
+.shopmulticategory ul {
+    padding: 0 15px;
+    border-bottom: none;
+}
+
+.shopmulticategory .classifier_item_desc {
+    width: 100%;
+    font-family: "BPGArialRegular";
+}
+.classifier_item_desc {
+    display: none;
+}
+
+.shopmulticategory ul {
+    padding-bottom: 10px;
+}
+
+.shopmulticategory li a {
+   font-family: 'BPGNinoMtavruli';
+    font-size: 16px;
+    border-radius: 0 !important;
+    padding: 10px 20px 7px;
+    background: #eee;
+    border: none;
+    margin-right: 5px;
+}
+
+.shopmulticategory li.active a, .shopmulticategory li.active a:focus, .shopmulticategory ul a:hover {
+    background: rgb(27, 190, 180) !important;
+    color: #fff !important; 
+    border: none !important;
+    cursor: pointer;
+}
+
+ul.treeview-menu {
+    overflow: hidden;
+}

@@ -1,0 +1,184 @@
+.category {
+    margin-bottom: 70px;
+}
+
+.category .page_item {
+    margin-bottom: 50px;
+}
+
+.category .item_image {
+    overflow: hidden;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.category .item_image img {
+    -webkit-transition: 0.5s ease-out;
+    transition: 0.5s ease-out;
+
+}
+
+.category .item_title h3 {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.category .item_title h3 a {
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+    font-size: 16px;
+    display: block;
+    line-height: 18px;
+    font-family: 'BPGNinoMtavruli';
+    font-weight: 600;
+}
+.category .item_category {
+    color: #9fc765;
+    margin-bottom: 10px;
+}
+
+.category .item_intro {
+    font-size: 13px;
+    margin-bottom: 20px;
+    line-height: 19px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.category .item_date {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    font-family: 'BPGNinoMtavruli';
+    color: rgb(48, 48, 48);
+    display: none;
+}
+.category .readmorein {
+    border-radius: 0;
+    padding: 10px 15px 5px;
+    font-size: 14px;
+    font-family: 'BPGNinoMtavruli';
+    background-color: rgb(27, 190, 180);
+    letter-spacing: 0.5px; 
+    color: #fff;
+    border: 1px solid rgba(80, 92, 253, 0);
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+}
+
+.category .readmorein:hover {
+    background-color: #fff;
+    color: rgb(27, 190, 180);
+    border: 1px solid rgb(27, 190, 180);
+}
+
+
+.card_item {
+    font-family: 'BPGNinoMtavruli';
+}
+
+.card_item_title a {
+    color: #000;
+    font-family: 'BPGNinoMtavruli';
+}
+
+.card_item_title a:hover {
+    color: rgb(80, 92, 253);
+}
+
+.card_item_delete:before {
+    color: #000;
+}
+
+.emptycard {
+    color: #cc181e;
+    font-family: 'BPGNinoMtavruli';
+}
+
+.card_items_total_price {
+    font-family: 'BPGNinoMtavruli';
+    color: #000;
+    font-weight: normal;
+}
+
+.card_items_total_reg {
+    color: #000;
+    font-family: 'BPGNinoMtavruli';
+}
+
+.page_body_shipping {
+    color: #000;
+    font-family: 'BPGNinoMtavruli';
+    padding: 20px;
+}
+
+.card_items_total_reg .btn {
+    border-radius: 5px;
+    padding: 10px 18px 7px;
+    font-size: 16px;
+    line-height: normal;
+    color: #fff;
+    background: #00b56b;
+}
+
+.btn {
+    color: #000;
+    border: 1px solid #000;
+    padding-top: 9px;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    background: none;
+}
+
+.btn:hover {
+    color: #fff;
+    border: 1px solid rgb(27, 190, 180);
+    background: rgb(27, 190, 180);
+}
+
+.card_items_total_reg .btn:hover {
+    background-color: #00824d;
+}
+
+.table-bordered {
+    color: #000;
+    font-family: 'BPGNinoMtavruli';
+}
+
+.card_items_total_reg a {
+    color: rgb(27, 190, 180);
+    text-decoration: underline;
+}
+
+.card_items_total_reg a:hover {
+    color: #000;
+}
+
+#classifier_page .classifier_item_img {
+    width: 100%;
+}
+
+#classifier_page .page_title {
+    padding-left: 0;
+    font-weight: bold;
+    color: rgb(68, 68, 68);
+    margin-bottom: 40px;
+}
+
+#shop_product_page {
+    padding: 0 0px 20px;
+}
+
+#shop_product_page .page_title {
+    padding-left: 0;
+}
+
+#classifier_page .page_body>div:nth-child(2) p {
+    color: #000;
+    font-family: 'BPGNinoMtavruli';
+    font-size: 18px;
+}
+

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<!-- was: <?xml version="." encoding="utf"?> -->
+<metadata>
+	<layout title="Classifier Layout">
+		<message>
+<![CDATA[Classifier BLOG LAYOUT DESC]]>
+		</message>
+	</layout>
+	<state>
+		<name>Classifier Layout</name>
+		<description>ClassifierLAYOUT DESC</description>
+		<url>
+			<param class="gwttip" name="classifier_id" type="classifier" label="Choose Classifier" description="Choose a Classifier Description" />
+		</url>
+		<params>
+			<param name="num_intro_items" type="text" size="" default="9" label="Num Intro" description="Intro Articles Description" />
+			<param name="orderby_sec" type="list" default="date" label="Primary Order" description="Order that the items will be displayed in.">
+				<option value="rdate">Date Reduce</option>
+				<option value="idate">Date Increase</option>
+				<option value="price_asc">Price ASC</option>
+				<option value="price_desc">Price DESC</option>
+			</param>
+			<param name="show_classifier_image" type="radio" default="0" label="Classifier image" description="Show/Hide Pagination Description">
+				<option value="0">Hide</option>
+				<option value="1">Show</option>
+			</param>			
+      
+			<param name="show_classifier_description" type="radio" default="0" label="Classifier Description" description="Show/Hide Pagination Description">
+				<option value="0">Hide</option>
+				<option value="1">Show</option>
+			</param>	
+			
+            
+		</params>       
+	</state>
+</metadata>

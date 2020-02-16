@@ -1,0 +1,84 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : May 23, 2018, 11:27:01 AM
+    Author     : Berdia
+*/
+.print_page {
+    margin-top: 20px;
+}
+
+.print_page .article_title {
+    padding: 15px 15px;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'ArchyEDT-Bold';
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+.print_page .page_image {
+    width: 50%;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.print_page .page_image img {
+    width: 100%;
+}
+.print_page .item_date {
+    float: none;
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 8px;
+}
+.print_page .item_category {
+    display: table;
+    font-size: 16px;
+    color: #222;
+    margin-bottom: 8px;
+}
+.print_page .arcitle_bottom {
+    margin-top: 30px;
+}
+
+.arcitle_bottom {
+    margin-bottom: 30px;
+}
+
+.print_page .soc_print a {
+    color: #fff;
+    background-color: #cc3333;
+    padding: 6px 15px 2px;
+    font-family: 'BPGNinoMtavruli';
+    border: 1px solid #cc3333;
+    transition: 0.2s;
+    display: inline-block;
+    font-size: 16px;
+}
+.print_page .soc_print a:hover {
+    background-color: #cc3333cc;
+}
+.print_page .soc_print img {
+    width: 30px;
+    height: 30px;
+}
+
+.print_page .photogallery {
+    display: none;
+}
+
+@media print {
+    .print_page .soc_print {
+        display: none;
+    }
+    a[href]:after {
+        content: none !important;
+    }
+    @page {
+        size: auto;   /* auto is the initial value */
+        margin: 0;  /* this affects the margin in the printer settings */
+    }
+}

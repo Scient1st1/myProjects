@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="template">
+	<name>temp016</name>
+	<version>1.0.0</version>
+	<creationDate>10/11/10</creationDate>
+	<author>GoodWeb</author>
+	<authorEmail>info@goodweb.ge</authorEmail>
+	<authorUrl>http://www.Goodweb.ge</authorUrl>
+	<copyright></copyright>
+	<license>Commercial License</license>
+	<description>DEFAULT DESCRIPTION</description>
+	<positions>
+		<position>logo</position>
+                <position>right</position>
+                <position>content</position>
+                <position>content1</position>
+	</positions>
+</install>

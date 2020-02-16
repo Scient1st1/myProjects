@@ -1,0 +1,49 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 4, 2019, 2:51:32 PM
+    Author     : Beka
+*/
+
+.mod_shopclassifier {
+    margin-bottom: 40px;
+}
+
+.mod_shopclassifier .treeview-menu {
+    padding: 10px 0;
+}
+
+.mod_filter form {
+    padding: 20px 0;
+}
+
+.mod_shopclassifier .module_title::after {
+    content:"\e056";
+    font-family: 'Glyphicons Halflings';
+    color: #000;
+    position: absolute;
+    top: -5px;
+    right: 5%;
+}
+
+.treeview-menu li {
+    float: left;
+    position: relative;
+}
+
+
+.treeview-menu li a {
+    font-size: 13px;
+    font-family: 'BPGNinoMtavruli';
+    color: rgb(64, 64, 68);
+    display: block;
+    border: 1px solid  rgba(0, 0, 0, 0.4);
+    border-radius: 50px;
+    padding: 12px 20px 5px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
